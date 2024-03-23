@@ -4,7 +4,7 @@ from pydantic import BaseModel
 import numpy as np
 
 app = FastAPI()
-model = load('model.joblib')
+model = load('random_forest_model.joblib')
 
 class InputData(BaseModel):
     feature: list
