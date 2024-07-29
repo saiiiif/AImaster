@@ -9,7 +9,7 @@ import json
 import matplotlib.pyplot as plt
 
 # Load data
-df = pd.read_csv("compression_algorithms_test_dataset_10.csv")
+df = pd.read_csv("TestingData/compression_algorithms_test_dataset_10.csv")
 
 # Page configuration
 st.set_page_config(page_title="Compression Algorithm Visualization", layout="wide")
